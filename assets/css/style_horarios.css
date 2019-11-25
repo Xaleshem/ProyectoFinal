@@ -1,0 +1,84 @@
+html{
+    background-color: rgb(29, 28, 29);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 100px;
+    background-color: rgb(29, 28, 29);
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1300px;
+    height: 440px;
+    margin: auto auto auto auto;
+    color: white;
+}
+
+body{
+    background-color: rgb(29, 28, 29);
+}
+
+.header{
+    background-color: rgb(29, 28, 29);
+}
+.header a{
+    text-decoration: none;
+}
+
+.boton{
+    height: 175px;
+    width: 220px;
+    margin-right: 40px;
+    margin-top: 20px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+  }  
+
+.cab_text{
+    background-color: rgb(29, 28, 29);
+    color: aquamarine;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 37px;
+    background-color: black;
+}
+.cabecera_text{
+    text-decoration: none;
+    grid-column: 1;
+    grid-row: 1;
+    display: block;
+    text-align: center;
+    padding: 5px 1px 5px -11px;
+    color: turquoise;
+    background-color: rgb(46, 43, 43);
+    border-radius: 3px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-right: 52px;
+}
+.tabla{
+    border: solid 1px #aaa9a9;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 10px;
+}
+
+.cabecera{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cabecera th{
+    border:black 3px solid;
+    color: aquamarine;
+}
+
+.fila td{
+    padding: 10px 20px;
+    border: rgb(90, 90, 90) 1px solid;
+}

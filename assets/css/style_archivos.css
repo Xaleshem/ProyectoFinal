@@ -1,0 +1,37 @@
+.container{
+    background-color: black;
+    margin: 20px 10px 20px 10px;
+    padding: 100px 50px 100px 50px;
+    border-radius: 15px;
+}
+
+body{
+    background-color: rgb(53, 52, 52);
+}
+
+.recuadro{
+    background-color: rgb(29, 28, 29);
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+}
+
+.texto{
+    color: cadetblue;
+}
+.subida{
+    background-color: rgb(74, 155, 147);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.boton{
+    height: 120px;
+    width: 140px;
+    margin-left: 50px;
+    margin-top: -120px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+}
+
